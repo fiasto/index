@@ -1,0 +1,132 @@
+body{
+  
+    font-style: italic;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt3w0h1h1oG7dx0seKgsYALKf_bgZ1jwITVE6UEuxFdxK0Kh-b&usqp=CAU");
+    background-size:cover;
+    opacity: 1;
+    animation-name: bodyImg;
+    animation-direction: reverse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-size:cover;
+    z-index: -1;
+    
+}
+@keyframes bodyImg{
+    25%{background-image: url("https://us.123rf.com/450wm/kebox/kebox1905/kebox190500275/123909019-world-map-with-white-dots-on-dark-grey-background.jpg?ver=6"); }
+    50%{background-image: url("https://c4.wallpaperflare.com/wallpaper/412/1018/503/blue-the-world-black-background-world-map-mainland-hd-wallpaper-preview.jpg");}
+    75%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR25q8ZX92zC2J3QtSCC-tzpMtu9jTnPvWMyFuKdblA_pwu41Eq&usqp=CAU");}
+    100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMWhzb548PqO_YQWez-TjCj--5TbmfolyoKlGiOB1wPxP9-03D&usqp=CAU");}
+  
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color:white;;
+    text-shadow:2px 2px 2px black;
+
+}
+#headImage{
+    background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");
+    height: 15%;
+    width: 100%;
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes head{
+  from{border:2px solid white;  background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");}
+  to{border:4px dotted white; background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");}
+}
+#headImage:hover{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");
+    display:cover;
+}
+#link{
+    
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+a{
+    color:white;
+}
+a:hover{
+    color: white;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+a{
+    display: inline-block;
+    text-align: right;
+}
+
+.fieldName{
+    font-size: 20px;
+    width:10%;
+    height: 35px;
+    color:white;
+}
+#text{
+    float:left;
+    width: 50%;
+    color:white;
+    
+}
+#img1{
+    float:left;
+    width:50%;
+    
+}
+.image1{
+  border:2px solid white;
+  border-radius: 25%;
+}
+
+.formField{
+  width: 50%;
+  padding: 10px 30px;
+  border: 5px solid rgb(187, 92, 37);
+  border-radius: 10px;
+  color: navy;
+  font-weight: bold;
+  position: relative;
+  left: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.formField:hover{
+    background-color: red;
+    transition: all 1s;
+    transform: scale(1.05);
+}
+.gap{
+    padding:10px 0px; 
+   
+}
+
+  #btn3{
+      float: center;
+      margin: 10px 20px;
+      padding: 10px 30px;
+      background-color: navy;
+      color: white;
+      border-radius: 50%;
+      position: relative;
+      right: 15%;
+  }
+  #btn3:focus{
+      outline: 0;
+  }
+      
+     
+  
+  #btn3:hover{
+      background-color: red;
+      color:navy;
+      transition: all 1s;
+      transform: scale(1.1);
+  }
