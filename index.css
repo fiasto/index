@@ -1,0 +1,131 @@
+body{
+    font-style: italic;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt3w0h1h1oG7dx0seKgsYALKf_bgZ1jwITVE6UEuxFdxK0Kh-b&usqp=CAU");
+    background-size:cover;
+    opacity: 1;
+    animation-name: bodyImg;
+    animation-direction: reverse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-size:cover;
+    z-index: -1;
+    
+}
+@keyframes bodyImg{
+    25%{background-image: url("https://us.123rf.com/450wm/kebox/kebox1905/kebox190500275/123909019-world-map-with-white-dots-on-dark-grey-background.jpg?ver=6"); }
+    50%{background-image: url("https://c4.wallpaperflare.com/wallpaper/412/1018/503/blue-the-world-black-background-world-map-mainland-hd-wallpaper-preview.jpg");}
+    75%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR25q8ZX92zC2J3QtSCC-tzpMtu9jTnPvWMyFuKdblA_pwu41Eq&usqp=CAU");}
+    100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMWhzb548PqO_YQWez-TjCj--5TbmfolyoKlGiOB1wPxP9-03D&usqp=CAU");}
+}
+
+
+#backImg{   
+    height: 25%;
+    float:right;
+    width:70% ;
+    background-image: url("https://images6.alphacoders.com/400/thumb-1920-400645.jpg");
+    border:3px solid white;
+    /* animation-name:back; */
+    animation-direction: reverse;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-size:cover;
+    z-index: -1;
+    
+    
+}
+@keyframes back{
+    25%{background-image: url("https://tse2.mm.bing.net/th?id=OIP.xx5d-Z2qna5Wi0xWKa6wsgHaEZ&pid=Api&P=0&w=265&h=158"); }
+    50%{background-image: url("https://cdn.images.express.co.uk/img/dynamic/11/590x/secondary/Coronavirus-symptoms-Spreading-virus-2286461.jpg?r=1580383234467");}
+    75%{background-image: url("https://i.cbc.ca/1.5450661.1580770370!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/2019-coronavirus-symptoms-vs-complications.jpg");}
+    100%{background-image: url("https://cdn.technologyreview.com/i/images/screen-shot-2020-03-06-at-14.59.42.png?sw=600&cx=0&cy=0&cw=1127&ch=989");}
+}
+
+
+#link1{
+    position: relative;
+    left:1%;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+a:hover{
+    color: white;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+a {
+  display: inline-block;
+  text-align: right;
+  color:white
+}  
+h1{
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    
+}
+
+#headImage{
+    background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");
+    height: 15%;
+    width: 100%;
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes head{
+  from{border:2px solid white;  background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");}
+  to{border:4px dotted white; background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");}
+}
+#headImage:hover{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");
+    display:cover;
+}
+
+p{
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-align: left;
+}
+#link2{
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-shadow:2px 2px 2px 0.5 black;
+    color:white;
+    text-decoration: none;
+    
+
+}
+label:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+#btn1{
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color: navy;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    left:50%;
+    /* transform: translateX(-50%); */
+    font-size: 15px;
+}
+#btn1:focus{
+    outline:0;
+}
+#btn1:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    transition:all 1s; 
+}
+
