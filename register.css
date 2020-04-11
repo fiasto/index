@@ -1,0 +1,132 @@
+body{
+  
+  font-style: italic;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt3w0h1h1oG7dx0seKgsYALKf_bgZ1jwITVE6UEuxFdxK0Kh-b&usqp=CAU");
+    background-size:cover;
+    opacity: 1;
+    animation-name: bodyImg;
+    animation-direction: reverse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-size:cover;
+    z-index: -1;
+    
+}
+@keyframes bodyImg{
+    25%{background-image: url("https://us.123rf.com/450wm/kebox/kebox1905/kebox190500275/123909019-world-map-with-white-dots-on-dark-grey-background.jpg?ver=6"); }
+    50%{background-image: url("https://c4.wallpaperflare.com/wallpaper/412/1018/503/blue-the-world-black-background-world-map-mainland-hd-wallpaper-preview.jpg");}
+    75%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR25q8ZX92zC2J3QtSCC-tzpMtu9jTnPvWMyFuKdblA_pwu41Eq&usqp=CAU");}
+    100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMWhzb548PqO_YQWez-TjCj--5TbmfolyoKlGiOB1wPxP9-03D&usqp=CAU");}
+    
+}
+
+h1{
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  text-shadow:2px 2px 2px black;
+  
+}
+#headImage{
+  background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");
+  height: 15%;
+  width: 100%;
+  border:2px solid red;
+  animation-name: head;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head{
+  from{border:2px solid white;  background-image: url("https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_6");}
+  to{border:4px dotted white; background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");}
+}
+#headImage:hover{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS35pQSdCV81DxKz7ueeR2i2CKfg2mtEM6HiKMEHqU_02ISyvXf&usqp=CAU");
+  display:cover;
+}
+#link{
+  
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+a{
+  color: white;
+}
+a:hover{
+  color:white;
+  transition: all 1s;
+  transform: scale(1.2);
+}
+a{
+  display: inline-block;
+  text-align: right;
+}
+#form{
+  padding: 0px 0px;
+  color: white;
+}
+
+#container{
+  float:left;
+  width:50%;
+}
+#back{
+  float:left;
+  width:50%;
+  height: 60%;
+  background-image: url("https://www.who.int/images/default-source/infographics/logo-who.tmb-1200v.jpg?Culture=en&sfvrsn=2fcc68a0_15");
+  background-size: cover;
+  animation-name:back;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes back{
+  25%{background-image: url("https://ichef.bbci.co.uk/images/ic/720x405/p086bfrf.jpg");}
+  50%{background-image: url("https://www.vichealth.vic.gov.au/-/media/Images/VicHealth/Images-and-Files/MediaResources/Letter/41/WHO/WHO-flags_1200-525.jpg?h=525&la=en&w=1200&hash=E4A805DE582F69BD88DFE3836281622C0BCD78E7");}
+  75%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCkwqgKkv8EcQTPUWgsHOKlJmY46AyD7n9D_97x4N7Ho0EluZp&usqp=CAU");}
+  100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRwkf5d4--HT6YrIGazK_2l3zuC3eZezxoIhYIuS4Lwf_LHXis&usqp=CAU");}
+}
+.fieldName{
+  font-size: 20px;
+  width:20px;
+  height: 25px;
+}
+.formField{
+  width: 50%;
+  padding: 10px 30px;
+  border: 5px solid rgb(140, 190, 236);
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.formField:hover{
+  background-color: white;
+  transition: all 1s;
+  transform: scale(1.05);
+}
+#btn2{
+  background-color: navy;
+  color: white;
+  position: relative;
+  left:45%;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#btn2:focus{
+  outline: 0;
+}
+#btn2:hover{
+  background-color: red;
+  color: white;
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
